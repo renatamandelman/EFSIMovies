@@ -22,10 +22,10 @@ function App() {
     }, [])
 
     return (
-        <div className='overflow-hidden'>
+        <div className='overflow-hidden w-100 h-100' style={{ backgroundColor: '#fff000' }}>
             <Navbar />
-            {peliculasNowPlaying && <Carrousel peliculas={peliculasNowPlaying} />}
-            {peliculasPopulares && <Carrousel peliculas={peliculasPopulares} />}
+            {peliculasNowPlaying && <Carrousel titulo="Las mejores peliculas" peliculas={peliculasNowPlaying} />}
+            {peliculasPopulares && <Carrousel titulo="Las mas populares" peliculas={peliculasPopulares} />}
             <Footer />
         </div>
     );
