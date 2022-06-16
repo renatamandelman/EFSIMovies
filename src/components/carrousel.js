@@ -1,11 +1,17 @@
 import React from 'react'
 import Card from './card'
+import Filters from './Filters'
+// import Filters from './Filters'
 
-const Carrousel = ({ peliculas, titulo }) => {
+const Carrousel = ({ filters, peliculas, titulo }) => {
     return (
         <div className='my-3 mx-3'>
-            <h3>{titulo}</h3>
+            <div className='d-flex'>
+                <h3>{titulo}</h3>
+                <Filters filters={filters}  />
+            </div>
             <div className='flex row flex-nowrap overflow-auto'>
+
                 {
                     peliculas.map((pelicula) => {
                         return (
