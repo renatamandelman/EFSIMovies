@@ -1,12 +1,16 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import App from './App.js'
+import DetallePelicula from './components/DetallePelicula.js'
+
+
 const AppRouter = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<></>} />
-                <Route path="/:id" element={<>                             </>} />
+                <Route path="/" element={<App />} />
+                <Route path="/:id" element={<DetallePelicula />} />
             </Routes>
         </BrowserRouter>
     )
