@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import App from './App.js'
-import DetallePelicula from './components/DetallePelicula.js'
+import DetallePelicula from './components/detallePelicula.js'
 
 
 const AppRouter = () => {

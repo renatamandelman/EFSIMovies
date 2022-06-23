@@ -15,7 +15,34 @@ align-items:center;
 justify-content:space-between;
 
 }
+.fondoImg{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  opacity: 0.3;
+  filter:  opacity(90%);
+  
+  
+}
+.listado{
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+.titulo{
+  position: absolute;
+  top:3%;
+  left: 40%;
+  color:black;
 
+
+}
+.detalleImg{
+  position: absolute;
+  top:30%;
+  left: 7%;
+  width:20%;
+}
 a{
     color: white;
     text-decoration: none;
