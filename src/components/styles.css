@@ -29,13 +29,16 @@ justify-content:space-between;
   top:50%;
   left:50%;
 }
-.titulo{
-  position: absolute;
-  top:3%;
-  left: 40%;
+.titulo {
+  padding: top 30px;
+  text-align: center;
   color:black;
+  text-decoration: underline;
 
 
+}
+.btn-primary{
+  background-color: #193498;
 }
 .detalleImg{
   position: absolute;

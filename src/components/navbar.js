@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <>
             <nav>
-                <img className="logo" src={logo} />
+                <img className="logo" src={logo} alt="logo" />
                 <div>
                     <a className="nav-item" href="/">Home</a>
                     <a className="nav-item" href="/">Movies</a>

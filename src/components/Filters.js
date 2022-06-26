@@ -1,10 +1,13 @@
 import React from 'react'
-import styled from 'styled-components'
 
 const Filters = ({ filters }) => {
     return (
         filters.map(filter => (
-            <div> { filter } </div>
+            <>
+            <div> 
+            <button type="button" className="btn btn-primary " >{filter}</button>
+               </div>
+            </>
         ))
     )
 };
